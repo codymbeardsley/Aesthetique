@@ -6,11 +6,11 @@ Might also be useful for getting around text filters, who knows.
 
 ## Ｉｎｓｔａｌｌａｔｉｏｎ 
 
-    $ pip install vape
+    $ pip install aesthetique
 
 ## Ｕｓａｇｅ 
 
-    $ vape I want to be AESTHETIC
+    $ aesthetique I want to be AESTHETIC
     Ｉ　ｗａｎｔ　ｔｏ　ｂｅ　ＡＥＳＴＨＥＴＩＣ
 
 You can copy the result to the clipboard with `-c`.

@@ -7,14 +7,14 @@ from __future__ import unicode_literals, print_function
 import argparse
 import xerox
 
-def vaporize(vape_me):
+def vaporize(aesthetique_me):
     """Solution shamelessly stolen from http://stackoverflow.com/a/8327034
     by Ignacio Vazquez-Abrams"""
     normal = u' 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~'
     wide = u'　０１２３４５６７８９ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ！゛＃＄％＆（）＊＋、ー。／：；〈＝〉？＠［\\］＾＿‘｛｜｝～'
     widemap = dict((ord(x[0]), x[1]) for x in zip(normal, wide))
-    vaped = vape_me.translate(widemap)
-    return vaped
+    aesthetiqued = aesthetique_me.translate(widemap)
+    return aesthetiqued
 
 def get_parser():
     parser = argparse.ArgumentParser(description='ＣＯＭＭＡＮＤ　ＬＩＮＥ　ＡＥＳＴＨＥＴＩＣ　ＧＥＮＥＲＡＴＯＲ.')
@@ -31,10 +31,10 @@ def command_line_runner():
         parser.print_help()
         return
 
-    vape_me = u' '.join(margs['query'])
+    aesthetique_me = u' '.join(margs['query'])
     if margs['upper']:
-        vape_me = vape_me.upper()
-    result = vaporize(vape_me)
+        aesthetique_me = aesthetique_me.upper()
+    result = vaporize(aesthetique_me)
      
     if margs['copy']:
         xerox.copy(result)

@@ -10,20 +10,20 @@ with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='vape',
-    version='0.1.1',
-    packages=['vape'],
+    name='aesthetique',
+    version='0.1.2',
+    packages=['pyaesthetique'],
     install_requires=required,
     include_package_data=True,
     license='MIT License',
-    description='Command line aesthetic generator.',
+    description='Command line aesthetic generator for Python',
     long_description=README,
-    url='https://github.com/Miserlou/Vape',
-    author='Rich Jones',
-    author_email='rich@openwatch.net',
+    url='https://github.com/codymbeardsley/PyAesthetique',
+    author='Cody Beardsley, Rich Jones',
+    author_email='beardsley.cody@gmail.com',
     entry_points={
         'console_scripts': [
-            'vape= vape.__init__:command_line_runner',
+            'aesthetique= aesthetique.__init__:command_line_runner',
         ]
     },
     classifiers=[
