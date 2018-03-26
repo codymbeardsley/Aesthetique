@@ -1,28 +1,24 @@
-# Ｖ　Ａ　Ｐ　Ｅ
+# P y A e s t h e t i q u e
 
-A command-line aesthetic text generator. Perfect for your new Vaporwave band.
-
-Might also be useful for getting around text filters, who knows.
+A python module for making your outputs have aesthetique.
 
 ## Ｉｎｓｔａｌｌａｔｉｏｎ 
 
-    $ pip install aesthetique
+    $ pip install pyaesthetique
 
 ## Ｕｓａｇｅ 
 
-    $ aesthetique I want to be AESTHETIC
-    Ｉ　ｗａｎｔ　ｔｏ　ｂｅ　ＡＥＳＴＨＥＴＩＣ
+```python
+from aesthetique import Aesthetique
+a = Aesthetique()
+a.translate("python module for adding aesthetic to your outputs")
+'ｐｙｔｈｏｎ ｍｏｄｕｌｅ ｆｏｒ ａｄｄｉｎｇ ａｅｓｔｈｅｔｉｃ ｔｏ ｙｏｕｒ ｏｕｔｐｕｔｓ 湯浅 倫太郎'
+```
 
-You can copy the result to the clipboard with `-c`.
-
-You can also force upper case text with `-u`. 
-
-And that's all it does!
+Adds aesthetic to your string, and then sprinkly some Japanese kanji that doesn't make any sense just for fun.
 
 ## See Also
 
 * [Emo](https://github.com/Miserlou/Emo)
 * [Trapify](https://github.com/Miserlou/Trapify)
 * [Zalgo](https://github.com/Miserlou/Zalgo)
-
-Ｒｉｃｈ　Ｊｏｎｅｓ　２０１７
