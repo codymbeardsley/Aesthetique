@@ -10,9 +10,9 @@ with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='aesthetique',
+    name='pyaesthetique',
     version='0.1.2',
-    packages=['pyaesthetique'],
+    packages=['aesthetique'],
     install_requires=required,
     include_package_data=True,
     license='MIT License',
