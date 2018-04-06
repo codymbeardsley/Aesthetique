@@ -2,17 +2,17 @@
 
 A python module for making your outputs have aesthetique.
 
-## Ｉｎｓｔａｌｌａｔｉｏｎ 
+## Ｉｎｓｔａｌｌａｔｉｏｎ
 
     $ pip install pyaesthetique
 
-## Ｕｓａｇｅ 
+## Ｕｓａｇｅ
 
 ```python
 from aesthetique import Aesthetique
 a = Aesthetique()
 a.translate("python module for adding aesthetic to your outputs")
-'ｐｙｔｈｏｎ ｍｏｄｕｌｅ ｆｏｒ ａｄｄｉｎｇ ａｅｓｔｈｅｔｉｃ ｔｏ ｙｏｕｒ ｏｕｔｐｕｔｓ 湯浅 倫太郎'
+'『 ｐｙｔｈｏｎ ｍｏｄｕｌｅ ｆｏｒ ａｄｄｉｎｇ ａｅｓｔｈｅｔｉｃ ｔｏ ｙｏｕｒ ｏｕｔｐｕｔｓ 』 湯浅 倫太郎'
 ```
 
 Adds aesthetic to your string, and then sprinkls some Japanese kanji that doesn't make any sense just for fun.
