@@ -11,8 +11,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='pyaesthetique',
-    version='0.1.2',
-    packages=['aesthetique'],
+    version='0.1.6',
+    packages=['aesthetique', 'gimini'],
     install_requires=required,
     include_package_data=True,
     license='MIT License',
